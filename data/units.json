@@ -1,0 +1,278 @@
+{
+  "infantry": [
+    {
+      "tier": "1",
+      "resources": [
+        {
+          "type": "stone",
+          "value": "60"
+        },
+        {
+          "type": "food",
+          "value": "30"
+        },
+        {
+          "type": "gold",
+          "value": "15"
+        }
+      ],
+      "time": "3"
+    },
+    {
+      "tier": "2",
+      "resources": [
+        {
+          "type": "stone",
+          "value": "120"
+        },
+        {
+          "type": "food",
+          "value": "60"
+        },
+        {
+          "type": "gold",
+          "value": "30"
+        }
+      ],
+      "time": "6"
+    },
+    {
+      "tier": "3",
+      "resources": [
+        {
+          "type": "stone",
+          "value": "180"
+        },
+        {
+          "type": "food",
+          "value": "90"
+        },
+        {
+          "type": "gold",
+          "value": "45"
+        }
+      ],
+      "time": "12"
+    },
+    {
+      "tier": "4",
+      "resources": [
+        {
+          "type": "stone",
+          "value": "360"
+        },
+        {
+          "type": "food",
+          "value": "180"
+        },
+        {
+          "type": "gold",
+          "value": "90"
+        }
+      ],
+      "time": "24"
+    },
+    {
+      "tier": "5",
+      "resources": [
+        {
+          "type": "stone",
+          "value": "720"
+        },
+        {
+          "type": "food",
+          "value": "360"
+        },
+        {
+          "type": "gold",
+          "value": "180"
+        }
+      ],
+      "time": "48"
+    }
+  ],
+  "archer": [
+    {
+      "tier": "1",
+      "resources": [
+        {
+          "type": "lumber",
+          "value": "60"
+        },
+        {
+          "type": "stone",
+          "value": "30"
+        },
+        {
+          "type": "gold",
+          "value": "15"
+        }
+      ],
+      "time": "3"
+    },
+    {
+      "tier": "2",
+      "resources": [
+        {
+          "type": "lumber",
+          "value": "120"
+        },
+        {
+          "type": "stone",
+          "value": "60"
+        },
+        {
+          "type": "gold",
+          "value": "30"
+        }
+      ],
+      "time": "6"
+    },
+    {
+      "tier": "3",
+      "resources": [
+        {
+          "type": "lumber",
+          "value": "180"
+        },
+        {
+          "type": "stone",
+          "value": "90"
+        },
+        {
+          "type": "gold",
+          "value": "45"
+        }
+      ],
+      "time": "12"
+    },
+    {
+      "tier": "4",
+      "resources": [
+        {
+          "type": "lumber",
+          "value": "360"
+        },
+        {
+          "type": "stone",
+          "value": "180"
+        },
+        {
+          "type": "gold",
+          "value": "90"
+        }
+      ],
+      "time": "24"
+    },
+    {
+      "tier": "5",
+      "resources": [
+        {
+          "type": "lumber",
+          "value": "720"
+        },
+        {
+          "type": "stone",
+          "value": "360"
+        },
+        {
+          "type": "gold",
+          "value": "180"
+        }
+      ],
+      "time": "48"
+    }
+  ],
+  "cavalry": [
+    {
+      "tier": "1",
+      "resources": [
+        {
+          "type": "food",
+          "value": "60"
+        },
+        {
+          "type": "lumber",
+          "value": "30"
+        },
+        {
+          "type": "gold",
+          "value": "15"
+        }
+      ],
+      "time": "3"
+    },
+    {
+      "tier": "2",
+      "resources": [
+        {
+          "type": "food",
+          "value": "120"
+        },
+        {
+          "type": "lumber",
+          "value": "60"
+        },
+        {
+          "type": "gold",
+          "value": "30"
+        }
+      ],
+      "time": "6"
+    },
+    {
+      "tier": "3",
+      "resources": [
+        {
+          "type": "food",
+          "value": "180"
+        },
+        {
+          "type": "lumber",
+          "value": "90"
+        },
+        {
+          "type": "gold",
+          "value": "45"
+        }
+      ],
+      "time": "12"
+    },
+    {
+      "tier": "4",
+      "resources": [
+        {
+          "type": "food",
+          "value": "360"
+        },
+        {
+          "type": "lumber",
+          "value": "180"
+        },
+        {
+          "type": "gold",
+          "value": "90"
+        }
+      ],
+      "time": "24"
+    },
+    {
+      "tier": "5",
+      "resources": [
+        {
+          "type": "food",
+          "value": "720"
+        },
+        {
+          "type": "lumber",
+          "value": "360"
+        },
+        {
+          "type": "gold",
+          "value": "180"
+        }
+      ],
+      "time": "48"
+    }
+  ]
+}
