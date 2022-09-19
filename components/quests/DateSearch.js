@@ -1,10 +1,13 @@
 import { Box, Icon, IconButton, ScrollView, Spinner, Text } from "native-base";
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, TouchableOpacity } from "react-native";
-import * as questApi from '../../api/quest';
-import Quest from "./Quest";
+import { StyleSheet } from "react-native";
+import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import { DateTime } from "luxon";
+import * as questApi from '../../api/quest';
+import { APP_ID } from "../../helpers/utilities";
+import Quest from "./Quest";
+
+const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.PROD;
 
 const DateSearch = (props) => {
   const [quests, setQuests] = useState()
@@ -47,6 +50,17 @@ const DateSearch = (props) => {
           />
         )
       )}
+
+      <Box style={{ marginTop: 10 }}>
+        <BannerAd
+          unitId={adUnitId}
+          size={BannerAdSize.FULL_BANNER}
+          requestOptions={{
+            requestNonPersonalizedAdsOnly: true,
+          }}
+        />
+      </Box>
+
     </ScrollView>
   )
 }

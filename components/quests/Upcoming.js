@@ -3,6 +3,10 @@ import React, { useContext } from 'react';
 import { StyleSheet } from "react-native";
 import { QuestContext } from "../../contexts/QuestContext";
 import Quest from "./Quest";
+import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
+import { APP_ID } from "../../helpers/utilities";
+
+const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.PROD;
 
 const Upcoming = () => {
   const quests = useContext(QuestContext)
@@ -21,6 +25,17 @@ const Upcoming = () => {
           />
         )
       )}
+
+      <Box style={{ marginTop: 10 }}>
+        <BannerAd
+          unitId={adUnitId}
+          size={BannerAdSize.FULL_BANNER}
+          requestOptions={{
+            requestNonPersonalizedAdsOnly: true,
+          }}
+        />
+      </Box>
+
     </ScrollView>
   )
 }

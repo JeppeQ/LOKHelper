@@ -1,8 +1,12 @@
 import { Box, ScrollView, Spinner } from "native-base";
 import React, { useContext } from 'react';
 import { StyleSheet } from "react-native";
+import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
 import { QuestContext } from "../../contexts/QuestContext";
+import { APP_ID } from "../../helpers/utilities";
 import Quest from "./Quest";
+
+const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.PROD;
 
 const Current = () => {
   const quests = useContext(QuestContext)
@@ -21,6 +25,17 @@ const Current = () => {
           />
         )
       )}
+
+      <Box style={{ marginTop: 10 }}>
+        <BannerAd
+          unitId={adUnitId}
+          size={BannerAdSize.FULL_BANNER}
+          requestOptions={{
+            requestNonPersonalizedAdsOnly: true,
+          }}
+        />
+      </Box>
+
     </ScrollView>
   )
 }

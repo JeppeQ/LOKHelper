@@ -1,5 +1,6 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
+import GuideScreen from '../screens/GuideScreen';
 import BottomNavigation from './TabNavigation';
 
 const Stack = createStackNavigator();
@@ -11,7 +12,7 @@ function HomeStack() {
       opacity: current.progress,
     },
   });
-  
+
   return (
     <Stack.Navigator
       initialRouteName={'Home'}
@@ -27,6 +28,11 @@ function HomeStack() {
         name="Home"
         component={BottomNavigation}
         options={{ headerShown: false }}
+      />
+
+      <Stack.Screen
+        name="Guide"
+        component={GuideScreen}
       />
     </Stack.Navigator>
   );

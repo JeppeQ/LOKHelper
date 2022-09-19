@@ -6,6 +6,10 @@ import NumberFormat from "react-number-format";
 import { UpgradeContext } from '../../contexts/UpgradeContext';
 import Troops from '../../data/units.json'
 import * as utility from '../../helpers/utilities';
+import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
+import { APP_ID } from "../../helpers/utilities";
+
+const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.PROD;
 
 const typeValues = {
   cavalry: {
@@ -161,6 +165,16 @@ const Troop = () => {
                 </Box>)
               )}
             </Box>
+          </Box>
+
+          <Box style={{ marginTop: 10 }}>
+            <BannerAd
+              unitId={adUnitId}
+              size={BannerAdSize.FULL_BANNER}
+              requestOptions={{
+                requestNonPersonalizedAdsOnly: true,
+              }}
+            />
           </Box>
 
           <Box style={[styles.section, { backgroundColor: '#1F1B24' }]} mb={8}>

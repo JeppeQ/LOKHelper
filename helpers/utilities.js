@@ -577,3 +577,8 @@ export function mapName(research) {
       return "ERROR: NOSTRING";
   }
 }
+
+export const APP_ID = {
+  PROD: "ca-app-pub-3250032109398679~9877569723",
+  TEST_BANNER: "ca-app-pub-3940256099942544/6300978111"
+}

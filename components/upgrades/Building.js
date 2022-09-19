@@ -8,6 +8,10 @@ import Buildings from '../../data/buildings'
 import * as utility from '../../helpers/utilities';
 import { UpgradeContext } from '../../contexts/UpgradeContext';
 import HelpSettings from './HelpSettings';
+import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
+import { APP_ID } from "../../helpers/utilities";
+
+const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.PROD;
 
 const Building = () => {
   const upgrade = useContext(UpgradeContext)
@@ -151,6 +155,16 @@ const Building = () => {
                 </Box>)
               )}
             </Box>
+          </Box>
+
+          <Box style={{ marginTop: 10 }}>
+            <BannerAd
+              unitId={adUnitId}
+              size={BannerAdSize.FULL_BANNER}
+              requestOptions={{
+                requestNonPersonalizedAdsOnly: true,
+              }}
+            />
           </Box>
 
           <Box style={[styles.section, { backgroundColor: '#1F1B24' }]} mb={8}>

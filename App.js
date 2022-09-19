@@ -8,9 +8,11 @@ import { UpgradeProvider } from './contexts/UpgradeContext'
 import { theme, navigationTheme } from './helpers/theme'
 import HomeStack from './navigation/StackNavigation'
 import SplashScreen from 'react-native-splash-screen'
+import mobileAds from 'react-native-google-mobile-ads'
 
 LogBox.ignoreLogs(['EventEmitter.removeListener'])
 
+mobileAds().initialize().then(status => console.log(status))
 const App = () => {
   useEffect(() => {
     SplashScreen.hide();

@@ -1,14 +1,12 @@
-import { DateTime } from "luxon";
 import { Box, HStack, Icon, IconButton, Text } from "native-base";
-import React, { useContext, useEffect, useState } from 'react';
-import { StyleSheet, TouchableWithoutFeedback, Image } from "react-native";
+import React, { useContext, useState } from 'react';
+import { Image, StyleSheet, TouchableWithoutFeedback } from "react-native";
 import Collapsible from "react-native-collapsible";
-import Feather from 'react-native-vector-icons/Feather'
-import Entypo from 'react-native-vector-icons/Entypo'
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
-import { questTimeString, rewardIcon } from "../../helpers/utilities";
 import Triangle from "react-native-triangle";
+import Feather from 'react-native-vector-icons/Feather';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import { QuestContext } from "../../contexts/QuestContext";
+import { questTimeString, rewardIcon } from "../../helpers/utilities";
 
 const Quest = (props) => {
   const quests = useContext(QuestContext)
@@ -75,7 +73,7 @@ const Quest = (props) => {
 
               <HStack flexDir='row' flexWrap={'wrap'} space={1} style={{ paddingHorizontal: 15, marginTop: 6 }}>
                 {React.Children.toArray(
-                  task.rewards.map(reward => <Box>
+                  task.rewards.sort((a, b) => a.order - b.order).map(reward => <Box>
                     <Image source={rewardIcon[reward.type]} alt='icon' style={styles.icon} />
                     <Text style={styles.rewardAmount} fontSize={'md'} bold>{reward.amount}</Text>
                   </Box>

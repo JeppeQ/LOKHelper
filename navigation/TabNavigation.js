@@ -9,7 +9,7 @@ import Foundation from 'react-native-vector-icons/Foundation'
 import HomeScreen from '../screens/QuestScreen'
 import UpgradeScreen from '../screens/UpgradeScreen';
 import RankScreen from '../screens/RankScreen';
-import GuideScreen from '../screens/GuideScreen';
+import GuideOverviewScreen from '../screens/GuideOverviewScreen';
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -53,7 +53,7 @@ function BottomNavigation() {
 
       <Tab.Screen
         name="Guides"
-        component={GuideScreen}
+        component={GuideOverviewScreen}
         options={{
           tabBarLabel: 'Guides',
           tabBarIcon: ({ color }) => (

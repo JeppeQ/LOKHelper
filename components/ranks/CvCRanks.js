@@ -1,6 +1,10 @@
 import { ScrollView, Box, Text, Spinner } from "native-base";
 import React from 'react';
 import { StyleSheet } from "react-native";
+import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
+import { APP_ID } from "../../helpers/utilities";
+
+const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.PROD;
 
 const _LEAGUES = [
   {
@@ -91,6 +95,18 @@ const CvCRanks = (props) => {
           )
         )}
       </Box>
+
+      {league.name === "Major 2: King's League" &&
+        <Box style={{ marginTop: 15, alignItems: 'center' }}>
+          <BannerAd
+            unitId={adUnitId}
+            size={BannerAdSize.LARGE_BANNER}
+            requestOptions={{
+              requestNonPersonalizedAdsOnly: true,
+            }}
+          />
+        </Box>
+      }
     </Box>
   }
 
