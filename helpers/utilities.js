@@ -1,3 +1,4 @@
+import { Platform } from 'react-native';
 const { Duration, DateTime } = require("luxon")
 
 export function timeString(seconds) {
@@ -579,6 +580,6 @@ export function mapName(research) {
 }
 
 export const APP_ID = {
-  PROD: "ca-app-pub-3250032109398679~9877569723",
+  BANNER: Platform.OS === 'ios' ? "ca-app-pub-3250032109398679/6360888745" : "ca-app-pub-3250032109398679/6144432177",
   TEST_BANNER: "ca-app-pub-3940256099942544/6300978111"
 }

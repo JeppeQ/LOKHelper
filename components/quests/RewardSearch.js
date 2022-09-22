@@ -7,7 +7,7 @@ import * as questApi from '../../api/quest';
 import { APP_ID, rewardIcon, searchableRewards } from "../../helpers/utilities";
 import Quest from "./Quest";
 
-const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.PROD;
+const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.BANNER;
 
 const RewardSearch = (props) => {
   const [quests, setQuests] = useState()

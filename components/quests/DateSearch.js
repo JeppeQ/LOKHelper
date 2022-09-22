@@ -7,7 +7,7 @@ import * as questApi from '../../api/quest';
 import { APP_ID } from "../../helpers/utilities";
 import Quest from "./Quest";
 
-const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.PROD;
+const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.BANNER;
 
 const DateSearch = (props) => {
   const [quests, setQuests] = useState()

@@ -9,7 +9,7 @@ import * as utility from '../../helpers/utilities';
 import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
 import { APP_ID } from "../../helpers/utilities";
 
-const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.PROD;
+const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.BANNER;
 
 const typeValues = {
   cavalry: {
