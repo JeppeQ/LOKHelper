@@ -1,4 +1,4 @@
-package com.lokhelper;
+package com.fan.lok;
 
 import android.app.Application;
 import android.content.Context;
