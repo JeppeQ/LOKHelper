@@ -10,7 +10,7 @@ const TipsTricksBeginner = (props) => {
   return (
     <ScrollView style={styles.container}>
 
-      <Box mt={2}>
+      <Box mt={1}>
         <Text fontSize={'2xl'} bold>
           Tips & Tricks for beginners
         </Text>
@@ -139,8 +139,10 @@ const TipsTricksBeginner = (props) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    margin: 5,
     paddingHorizontal: 10,
-    backgroundColor: '#222222'
+    backgroundColor: '#222222',
+    borderRadius: 5
   },
   section: {
     marginTop: 10,

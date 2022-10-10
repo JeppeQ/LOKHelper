@@ -3,17 +3,22 @@ import { API_ENDPOINT } from './'
 
 const API_ROUTE = `${API_ENDPOINT}/quest`
 
-export async function getQuests() {
+export async function getQuests(continent) {
   const url = `${API_ROUTE}/relevant`
-  const response = await axios.get(url).catch(err => console.log(err))
+  const response = await axios.get(url, {
+    params: {
+      continent
+    }
+  }).catch(err => console.log(err))
 
   return response ? response.data : null
 }
 
-export async function getQuestsByDate(date) {
+export async function getQuestsByDate(date, continent) {
   const url = `${API_ROUTE}/day`
   const response = await axios.get(url, {
     params: {
+      continent,
       date
     }
   }).catch(err => console.log(err))
@@ -21,11 +26,12 @@ export async function getQuestsByDate(date) {
   return response ? response.data : null
 }
 
-export async function getQuestsByReward(reward) {
+export async function getQuestsByReward(reward, continent) {
   const url = `${API_ROUTE}/reward`
   const response = await axios.get(url, {
     params: {
-      reward
+      reward,
+      continent
     }
   }).catch(err => console.log(err))
 
