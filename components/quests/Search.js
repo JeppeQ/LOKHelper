@@ -1,5 +1,6 @@
 import { Box, ScrollView, Text } from "native-base";
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { Platform } from 'react-native';
 import { StyleSheet, TouchableOpacity } from "react-native";
 import DateTimePicker from '@react-native-community/datetimepicker';
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
@@ -20,6 +21,10 @@ const Search = () => {
     openDatePicker(false)
   }
 
+  useEffect(() => {
+    openDatePicker(false)
+  }, [selectReward])
+
   if (searchDate) {
     return <DateSearch date={searchDate} back={() => setSearchDate(false)} />
   }
@@ -31,7 +36,7 @@ const Search = () => {
   return (
     <ScrollView style={styles.container}>
 
-      {pickDate && <DateTimePicker
+      {Platform.OS !== 'ios' && pickDate && <DateTimePicker
         value={new Date()}
         onChange={setDate}
         themeVariant="dark"
@@ -54,6 +59,18 @@ const Search = () => {
           <MaterialCommunityIcons name='treasure-chest' color={'white'} size={42} />
         </TouchableOpacity>
       </Box>
+
+      {Platform.OS === 'ios' && pickDate && <Box mt={10} justifyContent='center' flexDir='row' px={12}>
+
+        <Text fontSize={'lg'}>Select date</Text>
+        <DateTimePicker
+          value={new Date()}
+          onChange={setDate}
+          themeVariant="dark"
+          style={{ width: '80%' }}
+        />
+
+      </Box>}
 
     </ScrollView >
   )
