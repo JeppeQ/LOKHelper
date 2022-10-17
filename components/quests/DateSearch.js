@@ -12,8 +12,6 @@ const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.BANNER;
 const DateSearch = (props) => {
   const [quests, setQuests] = useState()
 
-  console.log(props.date)
-
   useEffect(() => {
     async function getQuests() {
       const data = await questApi.getQuestsByDate(props.date)
