@@ -14,8 +14,7 @@ const RankScreen = ({ navigation }) => {
   const [loading, setLoading] = useState(true)
 
   const [routes] = React.useState([
-    { key: 'cvc', title: 'CvC' },
-    { key: 'power', title: 'Power' }
+    { key: 'cvc', title: 'CvC' }
   ]);
 
   const FirstRoute = () => (
