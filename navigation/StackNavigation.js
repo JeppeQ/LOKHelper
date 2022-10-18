@@ -26,6 +26,7 @@ function HomeStack() {
           left: 0,
           right: 0,
         },
+        headerBackTitleVisible: false,
         headerTitle: 'LOK FAN APP',
         headerStyle: {
           backgroundColor: '#1F1B24',
