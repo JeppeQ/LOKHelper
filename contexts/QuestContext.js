@@ -1,4 +1,3 @@
-import AsyncStorage from "@react-native-async-storage/async-storage";
 import { DateTime } from "luxon";
 import React, { createContext, useEffect, useState } from "react";
 import * as questApi from '../api/quest'
@@ -6,34 +5,9 @@ import * as questApi from '../api/quest'
 export const QuestContext = createContext()
 
 export const QuestProvider = ({ children }) => {
-  const [continent, setContinent] = useState()
   const [current, setCurrent] = useState()
   const [upcoming, setUpcoming] = useState()
   const [now, setNow] = useState(DateTime.utc())
-
-  async function saveContinent(data) {
-    try {
-      await AsyncStorage.setItem('continent', data)
-    } catch (e) {
-      console.log('Failed to save upgrade values', e)
-    }
-  }
-
-  async function getStoredValues() {
-    try {
-      const data = await AsyncStorage.getItem('continent')
-
-      if (data !== null) {
-        setContinent(data)
-      }
-    } catch (e) {
-      console.log('Failed to retrieve upgrade values', e)
-    }
-  }
-
-  useEffect(() => {
-    getStoredValues()
-  }, [])
 
   useEffect(() => {
     const timer = setTimeout(() => setNow(DateTime.utc()), 60000)
@@ -43,7 +17,7 @@ export const QuestProvider = ({ children }) => {
 
   useEffect(() => {
     async function fetchQuests() {
-      const data = await questApi.getQuests(continent)
+      const data = await questApi.getQuests()
 
       if (data) {
         setCurrent(data.filter(quest => quest.startTime <= now.toISODate()))
@@ -51,20 +25,15 @@ export const QuestProvider = ({ children }) => {
       }
     }
 
-    if (continent) {
-      saveContinent(continent)
-      fetchQuests()
-    }
-  }, [continent])
+    fetchQuests()
+  }, [])
 
   return (
     <QuestContext.Provider
       value={{
         current,
         upcoming,
-        now,
-        continent,
-        setContinent
+        now
       }}
     >
       {children}

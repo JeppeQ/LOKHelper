@@ -4,7 +4,7 @@ import CvCRanks from '../components/ranks/CvCRanks';
 import * as continentApi from '../api/continent'
 import { SceneMap, TabBar, TabView } from 'react-native-tab-view';
 import { useWindowDimensions } from 'react-native';
-import PowerRanks from '../components/ranks/PowerRanks';
+import ActivityRanks from '../components/ranks/ActivityRanks';
 
 const RankScreen = ({ navigation }) => {
   const layout = useWindowDimensions();
@@ -14,7 +14,8 @@ const RankScreen = ({ navigation }) => {
   const [loading, setLoading] = useState(true)
 
   const [routes] = React.useState([
-    { key: 'cvc', title: 'CvC' }
+    { key: 'cvc', title: 'CvC' },
+    { key: 'activity', title: 'Activity' }
   ]);
 
   const FirstRoute = () => (
@@ -25,15 +26,15 @@ const RankScreen = ({ navigation }) => {
   );
 
   const SecondRoute = () => (
-    <PowerRanks
+    <ActivityRanks
       loading={loading}
-      continents={continents.sort((a, b) => b.power - a.power)}
+      continents={continents.sort((a, b) => b.activity - a.activity)}
     />
   );
 
   const renderScene = SceneMap({
     cvc: FirstRoute,
-    power: SecondRoute,
+    activity: SecondRoute,
   });
 
   useEffect(() => {

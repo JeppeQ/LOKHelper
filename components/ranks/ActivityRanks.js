@@ -3,13 +3,15 @@ import React from 'react';
 import { StyleSheet } from "react-native";
 import NumberFormat from 'react-number-format';
 
-const PowerRanks = (props) => {
+const ActivityRanks = (props) => {
 
   const { loading, continents } = props
 
   if (loading) {
     return <Spinner mt={10} color='white' size='sm' />
   }
+
+  const divider = String(Math.round(continents[0].activity)).length - 2 
 
   return (
     <ScrollView style={styles.container}>
@@ -19,14 +21,11 @@ const PowerRanks = (props) => {
           <Box style={{ width: '20%' }}>
             <Text color={'light.400'} fontSize='md'>#</Text>
           </Box>
-          <Box style={{ width: '20%' }}>
+          <Box style={{ width: '30%' }}>
             <Text color={'light.400'} fontSize='md'>Cont.</Text>
           </Box>
           <Box style={{ width: '30%' }}>
-            <Text color={'light.400'} fontSize='md'>Alliance</Text>
-          </Box>
-          <Box style={{ width: '30%' }}>
-            <Text color={'light.400'} fontSize='md'>Power</Text>
+            <Text color={'light.400'} fontSize='md'>Score</Text>
           </Box>
         </Box>
 
@@ -36,19 +35,15 @@ const PowerRanks = (props) => {
               <Box style={{ width: '20%' }}>
                 <Text fontSize='md' color='light.300'>{i + 1}.</Text>
               </Box>
-              <Box style={{ width: '20%' }}>
+              <Box style={{ width: '30%' }}>
                 <Text fontSize='md' bold>{continent.id}</Text>
               </Box>
               <Box style={{ width: '30%' }} flexDir='row' alignItems={'center'}>
-                {continent.allianceTag ? <Text fontSize='md'>[{continent.allianceTag}]</Text> : <Text fontSize={'md'}>TBD</Text>}
-              </Box>
-              <Box style={{ width: '30%' }} flexDir='row' alignItems={'center'}>
-                {continent.power && <NumberFormat
-                  value={continent.power / 1000000000}
+                {continent.activity && <NumberFormat
+                  value={continent.activity / Math.pow(10, divider)}
                   displayType={'text'}
                   decimalScale={2}
                   thousandSeparator={true}
-                  suffix={' B'}
                   renderText={(value) => <Text fontSize={'md'}>{value}</Text>}
                 />}
               </Box>
@@ -93,4 +88,4 @@ const styles = StyleSheet.create({
   },
 })
 
-export default PowerRanks
+export default ActivityRanks

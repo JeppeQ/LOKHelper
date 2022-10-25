@@ -1,38 +1,22 @@
 import { Box, ScrollView, Spinner, Text } from "native-base";
 import React, { useContext } from 'react';
-import { StyleSheet, TouchableOpacity } from "react-native";
+import { StyleSheet } from "react-native";
 import { QuestContext } from "../../contexts/QuestContext";
 import Quest from "./Quest";
 import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
 import { APP_ID } from "../../helpers/utilities";
-import SetContinent from "./SetContinent";
 
 const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.BANNER;
 
 const Upcoming = () => {
   const quests = useContext(QuestContext)
 
-  if (!quests.continent) {
-    return <SetContinent />
-  }
-
-  if (!quests.upcoming && quests.continent) {
+  if (!quests.upcoming) {
     return <Spinner mt={10} color='white' size='sm' />
   }
 
   return (
     <ScrollView style={styles.container}>
-
-      <Box mt={2} justifyContent={'space-between'} pr={1} flexDir='row'>
-        <Text fontSize={'md'} color='gray.200'>
-          {`Continent ${quests.continent}`}
-        </Text>
-        <TouchableOpacity onPress={() => quests.setContinent()}>
-          <Text fontSize={'md'} underline color='gray.300'>
-            {`Change`}
-          </Text>
-        </TouchableOpacity>
-      </Box>
 
       {React.Children.toArray(
         quests.upcoming.map(quest =>
