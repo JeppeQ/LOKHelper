@@ -1,0 +1,215 @@
+[
+  {
+    "name": "Premium Resource Package",
+    "type": "popup",
+    "trigger": "Start something without enough resources",
+    "content": [
+      {
+        "type": "gems",
+        "amount": 12500
+      },
+      {
+        "type": "food_9",
+        "amount": 6
+      },
+      {
+        "type": "lumber_9",
+        "amount": 6
+      },
+      {
+        "type": "stone_9",
+        "amount": 6
+      },
+      {
+        "type": "gold_9",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "name": "Premium Speedup Package",
+    "type": "popup",
+    "trigger": "Start anything that takes more than 10 days",
+    "content": [
+      {
+        "type": "gems",
+        "amount": 12500
+      },
+      {
+        "type": "speedup_11",
+        "amount": 1
+      },
+      {
+        "type": "speedup_10",
+        "amount": 10
+      },
+      {
+        "type": "speedup_9",
+        "amount": 15
+      },
+      {
+        "type": "speedup_8",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "name": "Premium Training Package",
+    "type": "popup",
+    "trigger": "Start training troops",
+    "content": [
+      {
+        "type": "gems",
+        "amount": 12500
+      },
+      {
+        "type": "troop_speedup_10",
+        "amount": 10
+      },
+      {
+        "type": "troop_speedup_8",
+        "amount": 20
+      },
+      {
+        "type": "food_9",
+        "amount": 3
+      },
+      {
+        "type": "lumber_9",
+        "amount": 3
+      },
+      {
+        "type": "stone_9",
+        "amount": 3
+      },
+      {
+        "type": "gold_9",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "name": "Premium Treasure Package",
+    "type": "popup",
+    "trigger": "Open 20 or more gold chests at once",
+    "content": [
+      {
+        "type": "gems",
+        "amount": 12500
+      },
+      {
+        "type": "gold_chest",
+        "amount": 130
+      },
+      {
+        "type": "leg_piece",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "name": "Legendary Treasure",
+    "type": "popup",
+    "trigger": "Compose a legendary treasure with 10 pieces",
+    "content": [
+      {
+        "type": "gems",
+        "amount": 12500
+      },
+      {
+        "type": "leg_piece",
+        "amount": 40
+      },
+      {
+        "type": "gold_chest",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "name": "Return to the battlefield",
+    "type": "popup",
+    "trigger": "Unsuccesful attack against another castle",
+    "content": [
+      {
+        "type": "gems",
+        "amount": 12500
+      },
+      {
+        "type": "food_7",
+        "amount": 30
+      },
+      {
+        "type": "lumber_7",
+        "amount": 30
+      },
+      {
+        "type": "stone_7",
+        "amount": 30
+      },
+      {
+        "type": "gold_7",
+        "amount": 15
+      },
+      {
+        "type": "troop_speedup_8",
+        "amount": 25
+      },
+      {
+        "type": "healing_speedup_8",
+        "amount": 25
+      }
+    ]
+  },
+  {
+    "name": "Honor of the Kingdom",
+    "type": "popup",
+    "trigger": "Level castle up to 30",
+    "content": [
+      {
+        "type": "gems",
+        "amount": 25000
+      },
+      {
+        "type": "food_7",
+        "amount": 15
+      },
+      {
+        "type": "lumber_7",
+        "amount": 15
+      },
+      {
+        "type": "stone_7",
+        "amount": 15
+      },
+      {
+        "type": "gold_7",
+        "amount": 15
+      },
+      {
+        "type": "gold_chest",
+        "amount": 100
+      },
+      {
+        "type": "speedup_3",
+        "amount": 100
+      },
+      {
+        "type": "speedup_5",
+        "amount": 100
+      },
+      {
+        "type": "speedup_6",
+        "amount": 100
+      },
+      {
+        "type": "speedup_7",
+        "amount": 100
+      },
+      {
+        "type": "speedup_8",
+        "amount": 20
+      }
+    ]
+  }
+]

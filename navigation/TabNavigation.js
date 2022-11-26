@@ -6,9 +6,9 @@ import Foundation from 'react-native-vector-icons/Foundation';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import GuideOverviewScreen from '../screens/GuideOverviewScreen';
-import QuestScreen from '../screens/QuestScreen';
 import RankScreen from '../screens/RankScreen';
 import UpgradeScreen from '../screens/UpgradeScreen';
+import WikiScreen from '../screens/WikiScreen';
 
 const Tab = createMaterialBottomTabNavigator();
 
@@ -31,12 +31,12 @@ function BottomNavigation() {
       />
 
       <Tab.Screen
-        name="Quests"
-        component={QuestScreen}
+        name="Ranks"
+        component={RankScreen}
         options={{
-          tabBarLabel: 'Quests',
+          tabBarLabel: 'Ranks',
           tabBarIcon: ({ color }) => (
-            <FontAwesome name="book" color={color} size={24} />
+            <MaterialCommunityIcons name='podium' color={color} size={24} />
           ),
         }}
       />
@@ -53,16 +53,15 @@ function BottomNavigation() {
       />
 
       <Tab.Screen
-        name="Ranks"
-        component={RankScreen}
+        name="Wiki"
+        component={WikiScreen}
         options={{
-          tabBarLabel: 'Ranks',
+          tabBarLabel: 'Wiki',
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons name='podium' color={color} size={24} />
+            <FontAwesome name="book" color={color} size={24} />
           ),
         }}
       />
-
     </Tab.Navigator>
   );
 }

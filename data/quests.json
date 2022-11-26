@@ -1,0 +1,5517 @@
+[
+  {
+    "id": 1,
+    "name": "The grandmeister",
+    "tasks": [
+      {
+        "text": "Increase research score by 3,000",
+        "rewards": [
+          {
+            "type": "food_2",
+            "amount": 5
+          },
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "stone_2",
+            "amount": 5
+          },
+          {
+            "type": "gold_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase research score by 10,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 5
+          },
+          {
+            "type": "gold_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase research score by 30,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase research score by 100,000",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 2
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "The gold rush",
+    "tasks": [
+      {
+        "text": "Gather 50,000 Gold",
+        "rewards": [
+          {
+            "type": "gold_3",
+            "amount": "3"
+          },
+          {
+            "type": "constr_speedup_1",
+            "amount": "10"
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": "10"
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": "10"
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": "10"
+          }
+        ]
+      },
+      {
+        "text": "Gather 150,000 Gold",
+        "rewards": [
+          {
+            "type": "gold_4",
+            "amount": "2"
+          },
+          {
+            "type": "constr_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Gold",
+        "rewards": [
+          {
+            "type": "gold_5",
+            "amount": "3"
+          },
+          {
+            "type": "constr_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 1,000,000 Gold",
+        "rewards": [
+          {
+            "type": "gold_6",
+            "amount": "1"
+          },
+          {
+            "type": "constr_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 3,000,000 Gold",
+        "rewards": [
+          {
+            "type": "gold_7",
+            "amount": "1"
+          },
+          {
+            "type": "constr_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "research_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "troop_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "healing_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "gold_chest",
+            "amount": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "The matchless army",
+    "tasks": [
+      {
+        "text": "Train 10,000 any type of tier1 or higher",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 8,000 any type of tier2 or higher",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 4,000 any type of tier3 or higher",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 2,000 any type of tier4 or higher",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 1,000 any type of tier5 or higher",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Recycle",
+    "tasks": [
+      {
+        "text": "Pay 1 [Golden Hammer 1d] (5 times)",
+        "rewards": [
+          {
+            "type": "constr_speedup_8",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Food boost 8h] (20 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Food boost 1d] (5 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Lumber boost 8h] (20 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Lumber boost 1d] (5 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Stone boost 8h] (20 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Stone boost 1d] (5 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Gold boost 8h] (20 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Gold boost 1d] (5 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Gathering boost 8h] (20 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Gathering boost 1d] (5 times)",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Action point refill 10] (30 times)",
+        "rewards": [
+          {
+            "type": "healing_speedup_4",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 1 [Action point refill 50] (10 times)",
+        "rewards": [
+          {
+            "type": "troop_speedup_6",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 5 [Piece of normal treasure] (30 times)",
+        "rewards": [
+          {
+            "type": "magic_piece",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 5 [Piece of magic treasure] (10 times)",
+        "rewards": [
+          {
+            "type": "epic_piece",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Pay 5 [Piece of epic treasure] (3 times)",
+        "rewards": [
+          {
+            "type": "leg_piece",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "The trader",
+    "tasks": [
+      {
+        "text": "Acquire 100 x Crystal",
+        "rewards": [
+          {
+            "type": "rss_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_1",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Acquire 300 x Crystal",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Acquire 500 x Crystal",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Purchase 3 caravan items",
+        "rewards": [
+          {
+            "type": "rss_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_1",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Purchase 10 caravan items",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Purchase 20 caravan items",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "The fleet of chasseurs",
+    "tasks": [
+      {
+        "text": "Train 1,000 cavaliers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "food_2",
+            "amount": 5
+          },
+          {
+            "type": "gold_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 3,000 cavaliers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "gold_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 cavaliers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 10,000 cavaliers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "food_5",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "speed_boost_1",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train 20,000 cavaliers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "food_6",
+            "amount": 5
+          },
+          {
+            "type": "gold_5",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_5",
+            "amount": 5
+          },
+          {
+            "type": "speed_boost_2",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "The siege (Train)",
+    "tasks": [
+      {
+        "text": "Train the warriors - Earn event point 10,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 1
+          },
+          {
+            "type": "lumber_3",
+            "amount": 1
+          },
+          {
+            "type": "stone_3",
+            "amount": 1
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Train the warriors - Earn event point 50,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 1
+          },
+          {
+            "type": "lumber_4",
+            "amount": 1
+          },
+          {
+            "type": "stone_4",
+            "amount": 1
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Train the warriors - Earn event point 250,000",
+        "rewards": [
+          {
+            "type": "food_5",
+            "amount": 1
+          },
+          {
+            "type": "lumber_5",
+            "amount": 1
+          },
+          {
+            "type": "stone_5",
+            "amount": 1
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "shield_1",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train the warriors - Earn event point 1,000,000",
+        "rewards": [
+          {
+            "type": "food_6",
+            "amount": 1
+          },
+          {
+            "type": "lumber_6",
+            "amount": 1
+          },
+          {
+            "type": "stone_6",
+            "amount": 1
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "shield_1",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train the warriors - Earn event point 2,500,000",
+        "rewards": [
+          {
+            "type": "food_7",
+            "amount": 1
+          },
+          {
+            "type": "lumber_7",
+            "amount": 1
+          },
+          {
+            "type": "stone_7",
+            "amount": 1
+          },
+          {
+            "type": "healing_speedup_5",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Train the warriors - Earn event point 5,000,000",
+        "rewards": [
+          {
+            "type": "food_7",
+            "amount": 2
+          },
+          {
+            "type": "lumber_7",
+            "amount": 2
+          },
+          {
+            "type": "stone_7",
+            "amount": 2
+          },
+          {
+            "type": "healing_speedup_6",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Train the warriors - Earn event point 10,000,000",
+        "rewards": [
+          {
+            "type": "food_8",
+            "amount": 1
+          },
+          {
+            "type": "lumber_8",
+            "amount": 1
+          },
+          {
+            "type": "stone_8",
+            "amount": 1
+          },
+          {
+            "type": "healing_speedup_7",
+            "amount": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "The siege (Casualty)",
+    "tasks": [
+      {
+        "text": "Death in armor - Earn event point 10,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 1
+          },
+          {
+            "type": "lumber_4",
+            "amount": 1
+          },
+          {
+            "type": "stone_4",
+            "amount": 1
+          },
+          {
+            "type": "gems_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Death in armor - Earn event point 50,000",
+        "rewards": [
+          {
+            "type": "food_5",
+            "amount": 1
+          },
+          {
+            "type": "lumber_5",
+            "amount": 1
+          },
+          {
+            "type": "stone_5",
+            "amount": 1
+          },
+          {
+            "type": "gems_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Death in armor - Earn event point 250,000",
+        "rewards": [
+          {
+            "type": "food_6",
+            "amount": 1
+          },
+          {
+            "type": "lumber_6",
+            "amount": 1
+          },
+          {
+            "type": "stone_6",
+            "amount": 1
+          },
+          {
+            "type": "gems_2",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "text": "Death in armor - Earn event point 1,000,000",
+        "rewards": [
+          {
+            "type": "food_7",
+            "amount": 1
+          },
+          {
+            "type": "lumber_7",
+            "amount": 1
+          },
+          {
+            "type": "stone_7",
+            "amount": 1
+          },
+          {
+            "type": "gems_4",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Death in armor - Earn event point 2,500,000",
+        "rewards": [
+          {
+            "type": "food_7",
+            "amount": 2
+          },
+          {
+            "type": "lumber_7",
+            "amount": 2
+          },
+          {
+            "type": "stone_7",
+            "amount": 2
+          },
+          {
+            "type": "gems_2",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "text": "Death in armor - Earn event point 5,000,000",
+        "rewards": [
+          {
+            "type": "food_8",
+            "amount": 1
+          },
+          {
+            "type": "lumber_8",
+            "amount": 1
+          },
+          {
+            "type": "stone_8",
+            "amount": 1
+          },
+          {
+            "type": "gems_5",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Death in armor - Earn event point 10,000,000",
+        "rewards": [
+          {
+            "type": "food_9",
+            "amount": 1
+          },
+          {
+            "type": "lumber_9",
+            "amount": 1
+          },
+          {
+            "type": "stone_9",
+            "amount": 1
+          },
+          {
+            "type": "gems_6",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "The resource of the kingdom",
+    "tasks": [
+      {
+        "text": "Gather 100,000 Food",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 250,000 Food",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Food",
+        "rewards": [
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 100,000 Lumber",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 250,000 Lumber",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Lumber",
+        "rewards": [
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 100,000 Stone",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 250,000 Stone",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Stone",
+        "rewards": [
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 100,000 Gold",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 250,000 Gold",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Gold",
+        "rewards": [
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather any resource 500,000",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 5
+          },
+          {
+            "type": "magic_piece",
+            "amount": 3
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Gather any resource 1,000,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 10
+          },
+          {
+            "type": "lumber_4",
+            "amount": 10
+          },
+          {
+            "type": "stone_4",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Gather any resource 3,000,000",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 2
+          },
+          {
+            "type": "magic_piece",
+            "amount": 5
+          },
+          {
+            "type": "epic_piece",
+            "amount": 3
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "The power of the kingdom",
+    "tasks": [
+      {
+        "text": "Train 500 x infantry units",
+        "rewards": [
+          {
+            "type": "constr_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 2,000 x infantry units",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 x infantry units",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 500 x archer units",
+        "rewards": [
+          {
+            "type": "constr_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 2,000 x archer units",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 x archer units",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 500 x cavalry units",
+        "rewards": [
+          {
+            "type": "constr_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 2,000 x cavalry units",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 x cavalry units",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 3,000 units",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 5
+          },
+          {
+            "type": "magic_piece",
+            "amount": 3
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train 10,000 units",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 10
+          },
+          {
+            "type": "lumber_4",
+            "amount": 10
+          },
+          {
+            "type": "stone_4",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Train 30,000 units",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 2
+          },
+          {
+            "type": "magic_piece",
+            "amount": 5
+          },
+          {
+            "type": "epic_piece",
+            "amount": 3
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Drops make a shower",
+    "tasks": [
+      {
+        "text": "Gather any resource 150,000",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 5
+          },
+          {
+            "type": "magic_piece",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Gather any resource 500,000",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 10
+          },
+          {
+            "type": "magic_piece",
+            "amount": 5
+          },
+          {
+            "type": "epic_piece",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "text": "Train 1,500 units",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 5
+          },
+          {
+            "type": "magic_piece",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 units",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 10
+          },
+          {
+            "type": "magic_piece",
+            "amount": 5
+          },
+          {
+            "type": "epic_piece",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "text": "Kill 15 monster(s)",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 5
+          },
+          {
+            "type": "magic_piece",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Kill 50 monster(s)",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 10
+          },
+          {
+            "type": "magic_piece",
+            "amount": 5
+          },
+          {
+            "type": "epic_piece",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "text": "Increase Combat power by 15,000",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 5
+          },
+          {
+            "type": "magic_piece",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Increase Combat power by 50,000",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 10
+          },
+          {
+            "type": "magic_piece",
+            "amount": 5
+          },
+          {
+            "type": "epic_piece",
+            "amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "The hunter",
+    "tasks": [
+      {
+        "text": "Kill 3 monster(s)",
+        "rewards": [
+          {
+            "type": "rss_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_1",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Kill 10 monster(s)",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Kill 30 monster(s)",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Kill 3 x Deathkar monster",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Kill 10 x Deathkar monster",
+        "rewards": [
+          {
+            "type": "green_egg",
+            "amount": 1
+          },
+          {
+            "type": "red_egg",
+            "amount": 1
+          },
+          {
+            "type": "gold_egg",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Heal 1,000 troops",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Heal 5,000 troops",
+        "rewards": [
+          {
+            "type": "green_egg",
+            "amount": 1
+          },
+          {
+            "type": "red_egg",
+            "amount": 1
+          },
+          {
+            "type": "gold_egg",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "The safety of the kingdom",
+    "tasks": [
+      {
+        "text": "Kill 3 x Orc monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 10 x Orc monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 20 x Orc monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 3 x Skeleton monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 10 x Skeleton monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 20 x Skeleton monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 3 x Golem monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 10 x Golem monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 20 x Golem monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 15 monster(s)",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 5
+          },
+          {
+            "type": "magic_piece",
+            "amount": 3
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill 50 monster(s)",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 10
+          },
+          {
+            "type": "lumber_4",
+            "amount": 10
+          },
+          {
+            "type": "stone_4",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Kill 100 monster(s)",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 2
+          },
+          {
+            "type": "magic_piece",
+            "amount": 5
+          },
+          {
+            "type": "epic_piece",
+            "amount": 3
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "The skeleton annihilation",
+    "tasks": [
+      {
+        "text": "Kill 10 x Skeleton monster",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 3
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 30 x Skeleton monster",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 3
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 100 x Skeleton monster",
+        "rewards": [
+          {
+            "type": "food_5",
+            "amount": 5
+          },
+          {
+            "type": "lumber_5",
+            "amount": 5
+          },
+          {
+            "type": "stone_5",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Kill 10x Lv. 3 Skeleton monster",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill 5x Lv. 4 Skeleton monster",
+        "rewards": [
+          {
+            "type": "magic_piece",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Kill 3x Lv. 5 Skeleton monster",
+        "rewards": [
+          {
+            "type": "epic_piece",
+            "amount": 5
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill 1x Lv. 6 Skeleton monster",
+        "rewards": [
+          {
+            "type": "leg_piece",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "The great kingdom (stage 1)",
+    "tasks": [
+      {
+        "text": "Unit training - Earn event point 10,000",
+        "rewards": [
+          {
+            "type": "food_2",
+            "amount": 5
+          },
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "stone_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Unit training - Earn event point 25,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Unit training - Earn event point 25,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Unit training - Earn event point 25,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Unit training - Earn event point 100,000",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 1
+          },
+          {
+            "type": "ap_3",
+            "amount": 5
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "The great kingdom (stage 2)",
+    "tasks": [
+      {
+        "text": "Fight monsters - Earn event point 10,000",
+        "rewards": [
+          {
+            "type": "food_2",
+            "amount": 5
+          },
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "stone_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Fight monsters - Earn event point 25,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Fight monsters - Earn event point 50,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "rss_collection_1",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Fight monsters - Earn event point 100,000",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 1
+          },
+          {
+            "type": "rss_collection_2",
+            "amount": 1
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "The great kingdom (stage 3)",
+    "tasks": [
+      {
+        "text": "Gather resources - Earn event point 10,000",
+        "rewards": [
+          {
+            "type": "constr_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather resources - Earn event point 25,000",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather resources - Earn event point 50,000",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather resources - Earn event point 100,000",
+        "rewards": [
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "The great kingdom (stage 4)",
+    "tasks": [
+      {
+        "text": "Add more powers - Earn event point 10,000",
+        "rewards": [
+          {
+            "type": "food_2",
+            "amount": 5
+          },
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "stone_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Add more powers - Earn event point 25,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Add more powers - Earn event point 50,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Add more powers - Earn event point 100,000",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 1
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "The great kingdom (stage 5)",
+    "tasks": [
+      {
+        "text": "Kill / injure enemy troops - Earn event point 10,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 5
+          },
+          {
+            "type": "gold_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill / injure enemy troops - Earn event point 25,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill / injure enemy troops - Earn event point 50,000",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 1
+          },
+          {
+            "type": "vip_2",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill / injure enemy troops - Earn event point 100,000",
+        "rewards": [
+          {
+            "type": "gems_3",
+            "amount": 1
+          },
+          {
+            "type": "vip_3",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "The orc annihilation",
+    "tasks": [
+      {
+        "text": "Kill 10 x Orc monster",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 3
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 30 x Orc monster",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 3
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 100 x Orc monster",
+        "rewards": [
+          {
+            "type": "food_5",
+            "amount": 5
+          },
+          {
+            "type": "lumber_5",
+            "amount": 5
+          },
+          {
+            "type": "stone_5",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Kill 10x Lv. 3 Orc monster",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill 5x Lv. 4 Orc monster",
+        "rewards": [
+          {
+            "type": "magic_piece",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Kill 3x Lv. 5 Orc monster",
+        "rewards": [
+          {
+            "type": "epic_piece",
+            "amount": 5
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill 1x Lv. 6 Orc monster",
+        "rewards": [
+          {
+            "type": "leg_piece",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "The golem annihilation",
+    "tasks": [
+      {
+        "text": "Kill 10 x Golem monster",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 3
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 30 x Golem monster",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 3
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Kill 100 x Golem monster",
+        "rewards": [
+          {
+            "type": "food_5",
+            "amount": 5
+          },
+          {
+            "type": "lumber_5",
+            "amount": 5
+          },
+          {
+            "type": "stone_5",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Kill 10x Lv. 3 Golem monster",
+        "rewards": [
+          {
+            "type": "normal_piece",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill 5x Lv. 4 Golem monster",
+        "rewards": [
+          {
+            "type": "magic_piece",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Kill 3x Lv. 5 Golem monster",
+        "rewards": [
+          {
+            "type": "epic_piece",
+            "amount": 5
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill 1x Lv. 6 Golem monster",
+        "rewards": [
+          {
+            "type": "leg_piece",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Resource gatherer",
+    "tasks": [
+      {
+        "text": "Acquire 300,000 x Food",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Acquire 1,500,000 x Food",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Acquire 300,000 x Lumber",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Acquire 1,500,000 x Lumber",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Acquire 300,000 x Stone",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Acquire 1,500,000 x Stone",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Acquire 300,000 x Gold",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Acquire 1,500,000 x Gold",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Acquire 100 x Crystal",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Acquire 500 x Crystal",
+        "rewards": [
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "The deadly arrow",
+    "tasks": [
+      {
+        "text": "Train 1,000 archers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "gold_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 3,000 archers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "gold_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 archers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 10,000 archers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_5",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "att_boost_1",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train 20,000 archers of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_6",
+            "amount": 5
+          },
+          {
+            "type": "gold_5",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_5",
+            "amount": 5
+          },
+          {
+            "type": "att_boost_2",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "The king of mining",
+    "tasks": [
+      {
+        "text": "Gather 50,000 Stone",
+        "rewards": [
+          {
+            "type": "stone_3",
+            "amount": 3
+          },
+          {
+            "type": "constr_speedup_1",
+            "amount": 10
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 10
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Gather 150,000 Stone",
+        "rewards": [
+          {
+            "type": "stone_4",
+            "amount": "2"
+          },
+          {
+            "type": "constr_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Stone",
+        "rewards": [
+          {
+            "type": "stone_5",
+            "amount": "3"
+          },
+          {
+            "type": "constr_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 1,000,000 Stone",
+        "rewards": [
+          {
+            "type": "stone_6",
+            "amount": "1"
+          },
+          {
+            "type": "constr_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 3,000,000 Stone",
+        "rewards": [
+          {
+            "type": "stone_7",
+            "amount": "1"
+          },
+          {
+            "type": "constr_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "research_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "troop_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "healing_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "gold_chest",
+            "amount": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Treasure hunter",
+    "tasks": [
+      {
+        "text": "Use Silver chest item 1 time",
+        "rewards": [
+          {
+            "type": "rss_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_1",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Use Silver chest item 3 times",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Use Silver chest item 10 times",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Use Gold chest item 1 time",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Use Gold chest item 3 time",
+        "rewards": [
+          {
+            "type": "rss_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_3",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "For the victory!",
+    "tasks": [
+      {
+        "text": "Gather 500,000 Food",
+        "rewards": [
+          {
+            "type": "food_5",
+            "amount": 1
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Gather 1,500,000 Food",
+        "rewards": [
+          {
+            "type": "food_6",
+            "amount": 1
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Lumber",
+        "rewards": [
+          {
+            "type": "lumber_5",
+            "amount": 1
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Gather 1,500,000 Lumber",
+        "rewards": [
+          {
+            "type": "lumber_6",
+            "amount": 1
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Stone",
+        "rewards": [
+          {
+            "type": "stone_5",
+            "amount": 1
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Gather 1,500,000 Stone",
+        "rewards": [
+          {
+            "type": "stone_6",
+            "amount": 1
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Gold",
+        "rewards": [
+          {
+            "type": "gold_5",
+            "amount": 1
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Gather 1,500,000 Gold",
+        "rewards": [
+          {
+            "type": "gold_6",
+            "amount": 1
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          }
+        ]
+      },
+      {
+        "text": "Train 3,000 units",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 1
+          },
+          {
+            "type": "lumber_4",
+            "amount": 1
+          },
+          {
+            "type": "stone_4",
+            "amount": 1
+          },
+          {
+            "type": "gold_4",
+            "amount": 1
+          },
+          {
+            "type": "att_boost_2",
+            "amount": 1
+          },
+          {
+            "type": "def_boost_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train 10,000 units",
+        "rewards": [
+          {
+            "type": "food_5",
+            "amount": 1
+          },
+          {
+            "type": "lumber_5",
+            "amount": 1
+          },
+          {
+            "type": "stone_5",
+            "amount": 1
+          },
+          {
+            "type": "gold_5",
+            "amount": 1
+          },
+          {
+            "type": "hp_boost_2",
+            "amount": 1
+          },
+          {
+            "type": "speed_boost_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train 30,000 units",
+        "rewards": [
+          {
+            "type": "food_6",
+            "amount": 1
+          },
+          {
+            "type": "lumber_6",
+            "amount": 1
+          },
+          {
+            "type": "stone_6",
+            "amount": 1
+          },
+          {
+            "type": "gold_6",
+            "amount": 1
+          },
+          {
+            "type": "march_2",
+            "amount": 1
+          },
+          {
+            "type": "scout_2",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train 100,000 units",
+        "rewards": [
+          {
+            "type": "food_7",
+            "amount": 1
+          },
+          {
+            "type": "lumber_7",
+            "amount": 1
+          },
+          {
+            "type": "stone_7",
+            "amount": 1
+          },
+          {
+            "type": "gold_7",
+            "amount": 1
+          },
+          {
+            "type": "shield_1",
+            "amount": 1
+          },
+          {
+            "type": "adv_teleport",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 500 min",
+        "rewards": [
+          {
+            "type": "troop_speedup_2",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 1,000 min",
+        "rewards": [
+          {
+            "type": "troop_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 2,000 min",
+        "rewards": [
+          {
+            "type": "troop_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 4,000 min",
+        "rewards": [
+          {
+            "type": "troop_speedup_5",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_5",
+            "amount": 10
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 8,000 min",
+        "rewards": [
+          {
+            "type": "troop_speedup_6",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_6",
+            "amount": 10
+          },
+          {
+            "type": "gold_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "500x Crystal Purchase(Including package)",
+        "rewards": [
+          {
+            "type": "gems_3",
+            "amount": 1
+          },
+          {
+            "type": "food_4",
+            "amount": 1
+          },
+          {
+            "type": "lumber_4",
+            "amount": 1
+          },
+          {
+            "type": "stone_4",
+            "amount": 1
+          },
+          {
+            "type": "gold_4",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "1,000x Crystal Purchase(Including package)",
+        "rewards": [
+          {
+            "type": "gems_4",
+            "amount": 1
+          },
+          {
+            "type": "food_5",
+            "amount": 1
+          },
+          {
+            "type": "lumber_5",
+            "amount": 1
+          },
+          {
+            "type": "stone_5",
+            "amount": 1
+          },
+          {
+            "type": "gold_5",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 2
+          }
+        ]
+      },
+      {
+        "text": "2,000x Crystal Purchase(Including package)",
+        "rewards": [
+          {
+            "type": "gems_4",
+            "amount": 2
+          },
+          {
+            "type": "food_6",
+            "amount": 1
+          },
+          {
+            "type": "lumber_6",
+            "amount": 1
+          },
+          {
+            "type": "stone_6",
+            "amount": 1
+          },
+          {
+            "type": "gold_6",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "5,000x Crystal Purchase(Including package)",
+        "rewards": [
+          {
+            "type": "gems_5",
+            "amount": 1
+          },
+          {
+            "type": "food_7",
+            "amount": 1
+          },
+          {
+            "type": "lumber_7",
+            "amount": 1
+          },
+          {
+            "type": "stone_7",
+            "amount": 1
+          },
+          {
+            "type": "gold_7",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 4
+          }
+        ]
+      },
+      {
+        "text": "10,000x Crystal Purchase(Including package)",
+        "rewards": [
+          {
+            "type": "gems_6",
+            "amount": 1
+          },
+          {
+            "type": "food_8",
+            "amount": 1
+          },
+          {
+            "type": "lumber_8",
+            "amount": 1
+          },
+          {
+            "type": "stone_8",
+            "amount": 1
+          },
+          {
+            "type": "gold_8",
+            "amount": 1
+          },
+          {
+            "type": "gold_chest",
+            "amount": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Brothers in arms",
+    "tasks": [
+      {
+        "text": "Help 5 times",
+        "rewards": [
+          {
+            "type": "constr_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Help 10 times",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Help 15 times",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Help 25 times",
+        "rewards": [
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Help 50 times",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 2
+          },
+          {
+            "type": "food_5",
+            "amount": 10
+          },
+          {
+            "type": "lumber_5",
+            "amount": 10
+          },
+          {
+            "type": "stone_5",
+            "amount": 10
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "The steel infantry",
+    "tasks": [
+      {
+        "text": "Train 1,000 infantry of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "gold_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 3,000 infantry of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "gold_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 infantry of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 10,000 infantry of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_5",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "def_boost_1",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train 20,000 infantry of tier2 or higher",
+        "rewards": [
+          {
+            "type": "lumber_6",
+            "amount": 5
+          },
+          {
+            "type": "gold_5",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_5",
+            "amount": 5
+          },
+          {
+            "type": "def_boost_2",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "The threat of the kingdom",
+    "tasks": [
+      {
+        "text": "kill 1 Deathkar monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "kill 5 Deathkar monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "kill 10 Deathkar monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "kill 20 Deathkar monster",
+        "rewards": [
+          {
+            "type": "constr_speedup_5",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_5",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_5",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_5",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "kill 30 Deathkar monster",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 2
+          },
+          {
+            "type": "food_5",
+            "amount": 10
+          },
+          {
+            "type": "lumber_5",
+            "amount": 10
+          },
+          {
+            "type": "stone_5",
+            "amount": 10
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "The lumber jack",
+    "tasks": [
+      {
+        "text": "Gather 50,000 Lumber",
+        "rewards": [
+          {
+            "type": "lumber_3",
+            "amount": "3"
+          },
+          {
+            "type": "constr_speedup_1",
+            "amount": "10"
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": "10"
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": "10"
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": "10"
+          }
+        ]
+      },
+      {
+        "text": "Gather 150,000 Lumber",
+        "rewards": [
+          {
+            "type": "lumber_4",
+            "amount": "2"
+          },
+          {
+            "type": "constr_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Lumber",
+        "rewards": [
+          {
+            "type": "lumber_5",
+            "amount": "3"
+          },
+          {
+            "type": "constr_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 1,000,000 Lumber",
+        "rewards": [
+          {
+            "type": "lumber_6",
+            "amount": "1"
+          },
+          {
+            "type": "constr_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 3,000,000 Lumber",
+        "rewards": [
+          {
+            "type": "lumber_7",
+            "amount": "1"
+          },
+          {
+            "type": "constr_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "research_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "troop_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "healing_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "gold_chest",
+            "amount": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "A giant feast",
+    "tasks": [
+      {
+        "text": "Gather 50,000 Food",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": "3"
+          },
+          {
+            "type": "constr_speedup_1",
+            "amount": "10"
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": "10"
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": "10"
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": "10"
+          }
+        ]
+      },
+      {
+        "text": "Gather 150,000 Food",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": "2"
+          },
+          {
+            "type": "constr_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 500,000 Food",
+        "rewards": [
+          {
+            "type": "food_5",
+            "amount": "3"
+          },
+          {
+            "type": "constr_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 1,000,000 Food",
+        "rewards": [
+          {
+            "type": "food_6",
+            "amount": "1"
+          },
+          {
+            "type": "constr_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": "5"
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": "5"
+          }
+        ]
+      },
+      {
+        "text": "Gather 3,000,000 Food",
+        "rewards": [
+          {
+            "type": "food_7",
+            "amount": "1"
+          },
+          {
+            "type": "constr_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "research_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "troop_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "healing_speedup_5",
+            "amount": "3"
+          },
+          {
+            "type": "gold_chest",
+            "amount": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Finding the red dragon eggs!",
+    "tasks": [
+      {
+        "text": "Upgrade building"
+      },
+      {
+        "text": "Research technology"
+      },
+      {
+        "text": "Harvest 10,000 resources"
+      },
+      {
+        "text": "Collect 50,000 resources"
+      },
+      {
+        "text": "Hunt monster"
+      },
+      {
+        "text": "Help alliance member"
+      },
+      {
+        "text": "Train 3,000 soliders"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Hunting prep",
+    "tasks": [
+      {
+        "text": "Train 1,000 x infantry",
+        "rewards": [
+          {
+            "type": "rss_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_1",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 x infantry",
+        "rewards": [
+          {
+            "type": "green_egg",
+            "amount": 1
+          },
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Train 1,000 x archer units",
+        "rewards": [
+          {
+            "type": "rss_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_1",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 x archer units",
+        "rewards": [
+          {
+            "type": "red_egg",
+            "amount": 1
+          },
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Train 1,000 x cavalry units",
+        "rewards": [
+          {
+            "type": "rss_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_1",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 x cavalry units",
+        "rewards": [
+          {
+            "type": "gold_egg",
+            "amount": 1
+          },
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 units",
+        "rewards": [
+          {
+            "type": "rss_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "speed_chest_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Train 30,000 units",
+        "rewards": [
+          {
+            "type": "green_egg",
+            "amount": 1
+          },
+          {
+            "type": "red_egg",
+            "amount": 1
+          },
+          {
+            "type": "gold_egg",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "The treasure hunt",
+    "tasks": [
+      {
+        "text": "Gather any resource 150,000",
+        "rewards": [
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Gather any resource 500,000",
+        "rewards": [
+          {
+            "type": "silver_chest",
+            "amount": 2
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train 1,500 units",
+        "rewards": [
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 units",
+        "rewards": [
+          {
+            "type": "silver_chest",
+            "amount": 2
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill 15 monster(s)",
+        "rewards": [
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Kill 50 monster(s)",
+        "rewards": [
+          {
+            "type": "silver_chest",
+            "amount": 2
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Increase Combat power by 15,000",
+        "rewards": [
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Increase Combat power by 50,000",
+        "rewards": [
+          {
+            "type": "silver_chest",
+            "amount": 2
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "The growth of the kingdom",
+    "tasks": [
+      {
+        "text": "Increase building's power by 10,000",
+        "rewards": [
+          {
+            "type": "food_2",
+            "amount": 5
+          },
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "stone_2",
+            "amount": 5
+          },
+          {
+            "type": "gold_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase building's power by 30,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 5
+          },
+          {
+            "type": "gold_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase building's power by 100,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase research score by 10,000",
+        "rewards": [
+          {
+            "type": "food_2",
+            "amount": 5
+          },
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "stone_2",
+            "amount": 5
+          },
+          {
+            "type": "gold_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase research score by 30,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 5
+          },
+          {
+            "type": "gold_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase research score by 100,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase troop combat power by 10,000",
+        "rewards": [
+          {
+            "type": "food_2",
+            "amount": 5
+          },
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "stone_2",
+            "amount": 5
+          },
+          {
+            "type": "gold_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase troop combat power by 30,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 5
+          },
+          {
+            "type": "gold_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase troop combat power by 100,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase Combat power by 100,000",
+        "rewards": [
+          {
+            "type": "food_prod_1",
+            "amount": 1
+          },
+          {
+            "type": "lumber_prod_1",
+            "amount": 1
+          },
+          {
+            "type": "stone_prod_1",
+            "amount": 1
+          },
+          {
+            "type": "gold_prod_1",
+            "amount": 1
+          },
+          {
+            "type": "silver_chest",
+            "amount": 1
+          }
+        ]
+      },
+      {
+        "text": "Increase Combat power by 300,000",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Increase Combat power by 1,000,000",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 2
+          },
+          {
+            "type": "constr_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 10
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "The great construction",
+    "tasks": [
+      {
+        "text": "Increase building's power by 5,000",
+        "rewards": [
+          {
+            "type": "food_2",
+            "amount": 5
+          },
+          {
+            "type": "lumber_2",
+            "amount": 5
+          },
+          {
+            "type": "stone_2",
+            "amount": 5
+          },
+          {
+            "type": "gold_2",
+            "amount": 5
+          },
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase building's power by 15,000",
+        "rewards": [
+          {
+            "type": "food_3",
+            "amount": 5
+          },
+          {
+            "type": "lumber_3",
+            "amount": 5
+          },
+          {
+            "type": "stone_3",
+            "amount": 5
+          },
+          {
+            "type": "gold_3",
+            "amount": 5
+          },
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase building's power by 50,000",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 5
+          },
+          {
+            "type": "lumber_4",
+            "amount": 5
+          },
+          {
+            "type": "stone_4",
+            "amount": 5
+          },
+          {
+            "type": "gold_4",
+            "amount": 5
+          },
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase building's power by 150,000",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 2
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Prep for the monster hunt",
+    "tasks": [
+      {
+        "text": "Gather any resource 150,000",
+        "rewards": [
+          {
+            "type": "ap_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Gather any resource 500,000",
+        "rewards": [
+          {
+            "type": "ap_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 1,500 units",
+        "rewards": [
+          {
+            "type": "ap_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Train 5,000 units",
+        "rewards": [
+          {
+            "type": "ap_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase Combat power by 15,000",
+        "rewards": [
+          {
+            "type": "ap_1",
+            "amount": 5
+          },
+          {
+            "type": "ap_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Increase Combat power by 50,000",
+        "rewards": [
+          {
+            "type": "ap_2",
+            "amount": 5
+          },
+          {
+            "type": "ap_3",
+            "amount": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Finding the green dragon eggs!",
+    "tasks": [
+      {
+        "text": "Upgrade building"
+      },
+      {
+        "text": "Research technology"
+      },
+      {
+        "text": "Harvest 10,000 resources"
+      },
+      {
+        "text": "Collect 50,000 resources"
+      },
+      {
+        "text": "Hunt monster"
+      },
+      {
+        "text": "Help alliance member"
+      },
+      {
+        "text": "Train 3,000 soliders"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Faster growth, faster development",
+    "tasks": [
+      {
+        "text": "Use speedup items 100 min",
+        "rewards": [
+          {
+            "type": "constr_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_1",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_1",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 250 min",
+        "rewards": [
+          {
+            "type": "constr_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_2",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_2",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 500 min",
+        "rewards": [
+          {
+            "type": "constr_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_3",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_3",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 1,000 min",
+        "rewards": [
+          {
+            "type": "constr_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "research_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "troop_speedup_4",
+            "amount": 5
+          },
+          {
+            "type": "healing_speedup_4",
+            "amount": 5
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 2,500 min",
+        "rewards": [
+          {
+            "type": "food_4",
+            "amount": 10
+          },
+          {
+            "type": "lumber_4",
+            "amount": 10
+          },
+          {
+            "type": "stone_4",
+            "amount": 10
+          },
+          {
+            "type": "silver_chest",
+            "amount": 3
+          }
+        ]
+      },
+      {
+        "text": "Use speedup items 4,000 min",
+        "rewards": [
+          {
+            "type": "gems_2",
+            "amount": 2
+          },
+          {
+            "type": "food_5",
+            "amount": 10
+          },
+          {
+            "type": "lumber_5",
+            "amount": 10
+          },
+          {
+            "type": "stone_5",
+            "amount": 10
+          },
+          {
+            "type": "gold_chest",
+            "amount": 1
+          }
+        ]
+      }
+    ]
+  }
+]

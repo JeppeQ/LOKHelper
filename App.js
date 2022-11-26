@@ -5,7 +5,6 @@ import { LogBox } from 'react-native'
 import mobileAds from 'react-native-google-mobile-ads'
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
 import SplashScreen from 'react-native-splash-screen'
-import { QuestProvider } from './contexts/QuestContext'
 import { UpgradeProvider } from './contexts/UpgradeContext'
 import { navigationTheme, theme } from './helpers/theme'
 import HomeStack from './navigation/StackNavigation'
@@ -26,11 +25,9 @@ const App = () => {
           <NavigationContainer theme={navigationTheme}>
 
             <UpgradeProvider>
-              <QuestProvider>
 
                   <HomeStack />
 
-              </QuestProvider>
             </UpgradeProvider>
 
           </NavigationContainer>

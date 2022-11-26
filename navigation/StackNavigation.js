@@ -5,6 +5,8 @@ import GuideScreen from '../screens/GuideScreen';
 import BottomNavigation from './TabNavigation';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import NewsScreen from '../screens/NewsScreen';
+import QuestScreen from '../screens/QuestScreen';
+import PackageScreen from '../screens/PackageScreen';
 
 const Stack = createStackNavigator();
 
@@ -53,6 +55,16 @@ function HomeStack() {
       <Stack.Screen
         name="Guide"
         component={GuideScreen}
+      />
+
+      <Stack.Screen
+        name="Event Quests"
+        component={QuestScreen}
+      />
+
+      <Stack.Screen
+        name="Packages"
+        component={PackageScreen}
       />
 
       <Stack.Screen

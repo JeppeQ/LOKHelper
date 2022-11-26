@@ -1,30 +1,16 @@
-import { Box, ScrollView, Spinner } from "native-base";
-import React, { useContext } from 'react';
+import { Box, ScrollView } from "native-base";
+import React from 'react';
 import { StyleSheet } from "react-native";
 import { BannerAd, BannerAdSize } from 'react-native-google-mobile-ads';
-import { QuestContext } from "../../contexts/QuestContext";
-import { APP_ID } from "../../helpers/utilities";
-import Quest from "./Quest";
+import Packages from '../data/packages.json';
+import { APP_ID } from "../helpers/utilities";
+import Package from "../components/wiki/Package";
 
 const adUnitId = __DEV__ ? APP_ID.TEST_BANNER : APP_ID.BANNER;
 
-const Current = () => {
-  const quests = useContext(QuestContext)
-
-  if (!quests.current) {
-    return <Spinner mt={10} color='white' size='sm' />
-  }
-
+const PackageScreen = ({ navigation }) => {
   return (
     <ScrollView style={styles.container}>
-
-      {React.Children.toArray(
-        quests.current.map(quest =>
-          <Quest
-            data={quest}
-          />
-        )
-      )}
 
       <Box style={{ marginTop: 10 }}>
         <BannerAd
@@ -35,6 +21,14 @@ const Current = () => {
           }}
         />
       </Box>
+
+      {React.Children.toArray(
+        Packages.sort((a, b) => a.name > b.name ? 1 : -1).map(p =>
+          <Package
+            data={p}
+          />
+        )
+      )}
 
     </ScrollView >
   )
@@ -65,4 +59,5 @@ const styles = StyleSheet.create({
   }
 })
 
-export default Current
+export default PackageScreen
+
